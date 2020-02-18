@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Trivia Time!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="app.js" type="text/javascript"></script>
+    </head>
+         <body>
+             <header><h1>Perguntas </h1></header>
+     
+     <form id="quiz" name="quiz">
+        
+        <section> <p>JavaScript é uma linguagem de programação baseada em ____________.</p>
+         <input id="textbox" type="text" name="question1">
+        </section>
+
+
+         <section>
+         <p>CSS é o acrônimo de Cascading Style Sheets.</p>
+         <input type="radio"  name="question2" value="true">verdadeiro<br>
+         <input type="radio"  name="question2" value="false">falso<br>
+         </section>
+
+        <section>
+         <p>Qual a tag usamos para definir uma imagem em HTML??</p>
+         <input type="radio"  name="question3" value="img">img<br>
+         <input type="radio"  name="question3" value="src">src<br>
+         <input type="radio"  name="question3" value="href">href<br>
+         <input type="radio"  name="question3" value="alt">alt<br>
+        </section>
+     
+         <input id="button" type="button" value="Terminei!" onclick="check();">
+     
+     </form>
+     
+     <div id="after_submit"></div>
+     
+     <p id="messages"></p>
+     <p id="number_correct"></p>
+    
+     
+     
+     
+    </body>
+</html>
